@@ -72,11 +72,16 @@
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
+  flex-direction: column;
 }
 
 .imageHalf {
-  width: 49%;
-  display: inline-block;
+  width: 100%;
+  display: block;
+}
+
+.imageHalf:first-of-type{
+  margin-bottom: 1rem;
 }
 
 .imageFull {
@@ -87,4 +92,18 @@
 .imageCenter {
   display: block;
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 450px) {
+  .imageWrapper {
+    flex-direction: row;
+  }
+  .imageHalf {
+    width: 49%;
+    display: inline-block;
+  }
+
+  .imageHalf:first-of-type{
+    margin-bottom: 0;
+  }
 }
