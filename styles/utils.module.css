@@ -67,3 +67,24 @@
   margin: 1rem 3rem 1rem 0;
   display: inline-block;
 }
+
+.imageWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.imageHalf {
+  width: 49%;
+  display: inline-block;
+}
+
+.imageFull {
+  width: 100%;
+  display: block;
+}
+
+.imageCenter {
+  display: block;
+  margin: 0 auto;
+}

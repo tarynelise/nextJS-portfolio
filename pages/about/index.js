@@ -19,6 +19,18 @@ export default function About() {
 
         <p>I’m inspired my minimalist and quirky designs that prioritise accessibility, and I love working within a highly creative team who value openness and collaboration.</p>
       </section>
+      <section className={utilStyles.imageWrapper}>
+        <img
+          src="/images/taryndesk.jpg"
+          className={utilStyles.imageHalf}
+          alt="Taryn sitting in her home office"
+        />
+        <img
+          src="/images/speaking-thanks.jpg"
+          className={utilStyles.imageHalf}
+          alt="Taryn speaking at SydCSS"
+        />
+      </section>
       <section>
         <h3 className={utilStyles.h3}>Things I’ve worked on:</h3>
         <ul className={utilStyles.listStandard}>
@@ -34,6 +46,18 @@ export default function About() {
       <section>
         <h3 className={utilStyles.h3}>Currently learning</h3>
         <p>Currently my focus is on improving my JavaScript skills and I’ve just completed a <a className={utilStyles.linkFeature} href="http://www.centreforinclusivedesign.org.au/services/pcwa/">Professional Certificate in Web Accessibility</a>.</p>
+      </section>
+      <section className={utilStyles.imageWrapper}>
+        <img
+          src="/images/taryn-speaking1.jpg"
+          className={utilStyles.imageHalf}
+          alt="Taryn speaking at SydCSS"
+        />
+        <img
+          src="/images/taryn-speaking2.jpg"
+          className={utilStyles.imageHalf}
+          alt="Taryn speaking at SydCSS"
+        />
       </section>
       <section>
         <h3 className={utilStyles.h3}>Speaking</h3>

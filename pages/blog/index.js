@@ -29,7 +29,7 @@ export default function Home({ allPostsData }) {
       </section>
       <section>
         <h3>My writing on other sites</h3>
-        <ul class="blog__externalList">
+        <ul className="blog__externalList">
           <li><a className={utilStyles.linkStandard} href="https://medium.com/finder-tech/web-accessibility-standards-version-1-2ce65d5f4567">Web Accessibility Standards version 1</a></li>
           <li><a className={utilStyles.linkStandard} href="https://www.projectf.com.au/blog/2020/1/30/alternative-paths-to-software-engineering-for-women">Alternative paths to software engineering for women</a></li>
           <li><a className={utilStyles.linkStandard} href="https://medium.com/finder-tech/imposter-syndrome-all-the-way-up-9d90753ad38c">Imposter syndrome all the way up</a></li>
