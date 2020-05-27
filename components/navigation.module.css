@@ -30,6 +30,8 @@
   color: var(--textStandard);
   font-size: 1rem;
   text-decoration: none;
+  border-bottom: 0;
+  transition: none;
 }
 
 .nav__link:hover {

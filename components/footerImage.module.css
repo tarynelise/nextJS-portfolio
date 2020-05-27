@@ -10,9 +10,17 @@
   margin-right: 1rem;
 }
 
+.footerImageLink {
+  border-bottom: 0;
+  transition: none;
+}
+
+.footerImageLink:hover {
+  border-bottom: 0;
+}
+
 @media only screen and (min-width: 960px) {
   .footerImage {
     margin-right: 0;
-
   }
 }

@@ -10,7 +10,7 @@ export default function Contact() {
       </Head>
       <section className={utilStyles.headingMd}>
         <h2>Want to say hello?</h2>
-        <p>You can reach out by email via <a href="mailto:taryn@taryn.codes">taryn@taryn.codes</a>.</p>
+        <p>You can reach out by email via <a className={utilStyles.linkFeature} href="mailto:taryn@taryn.codes">taryn@taryn.codes</a>.</p>
       </section>
     </Layout>
   )

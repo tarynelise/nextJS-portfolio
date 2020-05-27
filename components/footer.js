@@ -1,6 +1,7 @@
 import styles from './footer.module.css'
 import Quote from './quote'
 import FooterImage from './footerImage'
+import utilStyles from '../styles/utils.module.css'
 
 export default function Footer() {
   return (
@@ -9,23 +10,23 @@ export default function Footer() {
       <Quote/>
       <ul className={styles.footer__list}>
         <li className={styles.footer__listItem}>
-          <a href="https://twitter.com/TarynEwens" className={styles.footer__listLink}>Twitter</a>
+          <a className={`${utilStyles.linkFeature} ${styles.footer__listLink}`} href="https://twitter.com/TarynEwens">Twitter</a>
         </li>
         <li className={styles.footer__listItem}>
-          <a href="https://www.instagram.com/taryn.codes/" className={styles.footer__listLink}>Instagram</a>
+          <a className={`${utilStyles.linkFeature} ${styles.footer__listLink}`} href="https://www.instagram.com/taryn.codes/">Instagram</a>
         </li>
         <li className={styles.footer__listItem}>
-          <a href="https://github.com/tarynelise" className={styles.footer__listLink}>GitHub</a>
+          <a className={`${utilStyles.linkFeature} ${styles.footer__listLink}`} href="https://github.com/tarynelise">GitHub</a>
         </li>
         <li className={styles.footer__listItem}>
-          <a href="https://www.linkedin.com/in/tarynewens/" className={styles.footer__listLink}>LinkedIn</a>
+          <a className={`${utilStyles.linkFeature} ${styles.footer__listLink}`} href="https://www.linkedin.com/in/tarynewens/">LinkedIn</a>
         </li>
         <li className={styles.footer__listItem}>
-          <a href="https://codepen.io/tarynewens" className={styles.footer__listLink}>CodePen</a>
+          <a className={`${utilStyles.linkFeature} ${styles.footer__listLink}`} href="https://codepen.io/tarynewens">CodePen</a>
         </li>
       </ul>
       <p className={styles.footer__copyright}>
-        <small>Designed and built by Taryn Ewens - an experiment with <a href="https://nextjs.org/">Next.JS</a> | © {new Date().getFullYear()}</small>
+        <small>Designed and built by Taryn Ewens - an experiment with <a className={utilStyles.linkFeature} href="https://nextjs.org/">Next.JS</a> | © {new Date().getFullYear()}</small>
       </p>
     </footer>
   )

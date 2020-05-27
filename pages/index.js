@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -20,8 +21,12 @@ export default function Home() {
         </p>
 
         <div>
-          <a href="/about/">Learn more about me →</a>
-          <a href="/blog/">Check out my writing →</a>
+          <Link href="/about">
+            <a className={`${utilStyles.linkFeature} ${utilStyles.linkFeatureCTA}`}>Learn more about me →</a>
+          </Link>
+          <Link href="/blog">
+            <a className={`${utilStyles.linkFeature} ${utilStyles.linkFeatureCTA}`}>Check out my blog →</a>
+          </Link>
         </div>
       </section>
     </Layout>

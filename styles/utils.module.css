@@ -50,3 +50,20 @@
 .lightText {
   color: #666;
 }
+
+.linkStandard {
+  border-bottom: 0;
+  color: var(--blueDark);
+  text-decoration: underline;
+  transition: none;
+}
+
+.linkStandard:hover {
+  border-bottom: 0;
+  text-decoration: none;
+}
+
+.linkFeatureCTA {
+  margin: 1rem 3rem 1rem 0;
+  display: inline-block;
+}
