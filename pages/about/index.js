@@ -32,7 +32,7 @@ export default function About() {
         />
       </section>
       <section>
-        <h3 className={utilStyles.h3}>Things I’ve worked on:</h3>
+        <h3 className={utilStyles.h3}>Things I’ve worked on</h3>
         <ul className={utilStyles.listStandard}>
           <li className={utilStyles.listItemStandard}>Design Ops: as a team we refreshed the navigation, page templates, side bar and more, giving the whole site a fresh new look and improved user experience. The page templates we created and rolled out across the site reduced bounce rate by ~25%.</li>
           <li className={utilStyles.listItemStandard}>Gutenberg CMS: building ‘blocks’ (components) for the new WordPress editor, using a hybrid renderer that renders Wordpress content in a Next.JS front-end.</li>

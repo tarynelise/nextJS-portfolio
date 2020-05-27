@@ -6,6 +6,12 @@ The previous version used a headless Wordpress CMS, with a Gatsby front-end, but
 
 It's also my first adventure into CSS modules!
 
+## How to develop
+Run `yarn install` to install packages
+Run `yarn build` to build the site
+Run `yarn start` to serve a production version of the site to localhost
+Run `yarn dev` to serve a development version of the site to localhost with hot reloading
+
 ## License
 This project is licensed under the MIT license.
 
