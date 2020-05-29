@@ -98,6 +98,10 @@
   margin: 0 auto;
 }
 
+.headingBlogPost {
+  margin-bottom: 0.25rem;
+}
+
 @media only screen and (min-width: 450px) {
   .imageWrapper {
     flex-direction: row;
