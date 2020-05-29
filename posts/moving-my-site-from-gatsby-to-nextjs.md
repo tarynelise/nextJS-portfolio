@@ -5,7 +5,7 @@ date: "2020-05-29"
 
 Are you even a developer if you don't rebuild your portfolio site in every new technology you want to try out? 🤣
 
-Every time I want to learn something new or try a new technology, I rebuild my portfolio / blog site. I'd like to say the reason is something profound, like I know the content so well that I can just focus on the technology (such as suggested in [Drew Hoover's article Coding For Fun](https://spin.atomicobject.com/2016/08/02/coding-for-fun/)). In reality though, I've had a personal website since as long as I can remember and my favourite pasttime has always been changing it! It's a habit I haven't been able to shake.
+Every time I want to learn something new or try a new technology, I rebuild my portfolio / blog site. I'd like to say the reason is something profound, like I know the content so well that I can just focus on the technology (such as suggested in [Drew Hoover's article Coding For Fun](https://spin.atomicobject.com/2016/08/02/coding-for-fun/)). In reality though, I've had a personal website since as long as I can remember and my favourite pastime has always been changing it! It's a habit I haven't been able to shake.
 
 So in the past couple of years I've gone through a few iterations of my site:
 
@@ -22,7 +22,7 @@ The last two were both quite recent so I thought I'd share some differences I've
 
 GatsbyJS is a free and open source framework based on React. Next.JS is also a free and open source framework based on React! They both generate modern and performant websites. 
 
-The Gatsby documentation provides a [comparison of Gatsby vs Next.js](https://www.gatsbyjs.org/features/jamstack/gatsby-vs-nextjs) so I won't go into detail about it. Based on the comparison (it's created by Gatsby so is it biased?) Gatsby wins out in every area. There are plenty of other articles and videos on the web comparing their features so give it a google if you're interested in more technical details.
+The Gatsby documentation provides a [comparison of Gatsby vs Next.JS](https://www.gatsbyjs.org/features/jamstack/gatsby-vs-nextjs) so I won't go into detail about it. Based on the comparison (it's created by Gatsby so is it biased?) Gatsby wins out in every area. There are plenty of other articles and videos on the web comparing their features so give it a google if you're interested in more technical details.
 
 From my research, for a small static website like my blog Gatsby is the most recommended. I won't disagree, I did get great results with Gatsby especially in terms of SEO. But let's look at some differences I've noted between the two:
 
