@@ -16,7 +16,7 @@ So in the past couple of years I've gone through a few iterations of my site:
 
 The last two were both quite recent so I thought I'd share some differences I've found in my first impressions of [GatsbyJS](https://www.gatsbyjs.org/) vs [Next.JS](https://nextjs.org/). To be clear, these are beginners impressions - how I felt about just starting out with them for the first time!
 
-![Screenshot of my sites home page](/blogImages/Screen_Shot_2020-05-29_at_12.25.07_pm.png)
+![Screenshot of my sites home page](/blogImages/portfolio_screenshot.png)
 
 ### What are they?
 
@@ -30,7 +30,7 @@ From my research, for a small static website like my blog Gatsby is the most rec
 
 Apart from my previous blog version, I'm also building a side project called CheesePets in Gatsby so I've I've spent a lot of time in the Gatsby documentation trying to figure certain things out. There is tonnes of documentation and it's very thorough. They explain what you need to get your site working.
 
-I love good documentation, but it's rare that I publicly rave about it. When I started working through the Next.JS 'learn' section, however... I raved hard. I *love* this tutorial. Not only is it super clear and walks you through a whole small project of a blog using markdown for posts (which is what I used as a base for my own blog), it also explains some other concepts along the way.
+I love good documentation, but it's rare that I publicly rave about it. When I started working through the [Next.JS 'learn'](https://nextjs.org/learn/basics/create-nextjs-app) section, however... I raved hard. I *love* this tutorial. Not only is it super clear and walks you through a whole small project of a blog using markdown for posts (which is what I used as a base for my own blog), it also explains some other concepts along the way.
 
 While working through this tutorial I *finally* understood the difference between server side rendering and static generation (more on this later). I also learnt about CSS modules! 
 
@@ -38,9 +38,9 @@ It was honestly the most enjoyable experience I've had with documentation in a n
 
 ### GraphQL
 
-GatsbyJS uses graphQL a lot. They recommend using graphQL to generate responsive images. I have nothing against graphQL and I hope to one day have a chance to learn it well... but if you're not familiar with it this can be a hurdle to getting started.
+GatsbyJS uses [GraphQL](https://graphql.org/) a lot. They even recommend using GraphQL to generate responsive images. I have nothing against GraphQL and I hope to one day have a chance to learn it well... but if you're not familiar with it this can be a hurdle to getting started.
 
-I can't tell you how many times I've read the documentation to use graphQL for images in Gatsby. Have I ever been successful? Sadly, no. This isn't on Gatsby, this is on me and my struggle to understand graphQL. 
+I can't tell you how many times I've read the documentation to use GraphQL for images in Gatsby. Have I ever been successful? Sadly, no. This isn't on Gatsby, this is on me and my struggle to understand it. 
 
 On the other hand, as long as you know JavaScript and React you shouldn't have any problems with Next.JS... but you also don't get the benefit of those responsive images. In my case, I don't have tonnes of images on my site and the ones I do have aren't huge so I don't see this as too big a concern for me.
 
@@ -48,8 +48,8 @@ On the other hand, as long as you know JavaScript and React you shouldn't have a
 
 This is where I get confused. I've always understood Gatsby to be a static site generator. Next.JS on the other hand can do both static generation and server side rendering. But what's the difference? The [Next.JS documentation](https://nextjs.org/learn/basics/data-fetching/two-forms) explains it like this:
 
-> Static generation: the HTML is generated at build-time and is reused for each request
-Server side rendering: the HTML is generated on each request
+> Static generation: the HTML is generated at build-time and is reused for each request  
+> Server side rendering: the HTML is generated on each request
 
 That makes sense, right? But I've also seen documentation that says Gatsby *does* server side render *because* it renders the react pages to an HTML file during the build step. Unlike regular server side rendering (which generates on each request), it's faster and more lightweight to serve because the rendering is done at build time. Sooooo... what does this mean?
 
@@ -72,7 +72,7 @@ I'm still not fully used to it yet... I'm so used to using BEM that changing my 
 
 ### Link tags
 
-This is not a major issue but something I wanted to flag as different between these two.
+This is not a major issue but something I found an interesting difference between these two.
 
 In Gatsby.JS when you're creating an internal link you want to use the built-in <Link> component, with the `navigate` function which is used for programmatic navigation. You import the link component at the top of the file and then use it like this:
 
@@ -106,6 +106,6 @@ Both are great frameworks and I'm sure once I spend the time to learn GraphQL I'
 
 One parting note: I only spent a few hours to set up my latest Next.JS version and here's the results from a Google Lighthouse audit:
 
-![Screenshot of audit results showing all green numbers, 97 for performance, 100 for everything else](/blogImages/Screen_Shot_2020-05-29_at_12.21.19_pm.png)
+![Screenshot of audit results showing all green numbers, 97 for performance, 100 for everything else](/blogImages/lighthouse_audit.png)
 
 Performance would be even better if I wasn't too lazy to resize my images 😉although tech Twitter tells me I can easily resolve this with the use of the [imagemin plugin](https://www.npmjs.com/package/imagemin). Another task for another day!

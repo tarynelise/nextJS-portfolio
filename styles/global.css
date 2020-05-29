@@ -37,7 +37,7 @@ ul {
 }
 
 li {
-  margin: 0.75rem 0;
+  margin: 0.5rem 0;
 }
 
 h3 {
@@ -63,4 +63,10 @@ pre {
     padding: 1rem 2rem;
     margin: 2rem 1rem;
   }
+}
+
+blockquote {
+  border-left: 2px solid var(--blueLight);
+  padding-left: 1rem;
+  margin: 2.5rem 1rem;
 }

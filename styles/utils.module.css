@@ -51,6 +51,10 @@
   color: #666;
 }
 
+.lightTextHeader {
+  margin-bottom: 2rem;
+}
+
 .linkStandard {
   border-bottom: 0;
   color: var(--blueDark);
