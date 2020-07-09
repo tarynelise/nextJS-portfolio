@@ -11,13 +11,12 @@ export default function About() {
       <section className={utilStyles.headingMd}>
         <h2>About me</h2>
         <ul className={utilStyles.listStandard}>
-          <li className={utilStyles.listItemStandard}><strong>2000:</strong> Taught myself to write HTML CSS so I could build geocities sites about my virtual ‘dogz’ 🐶</li>
+          <li className={utilStyles.listItemStandard}><strong>2000:</strong> Taught myself to write HTML and CSS so I could build geocities sites about my virtual ‘dogz’ 🐶</li>
           <li className={utilStyles.listItemStandard}><strong>February 2018:</strong> Finally realised I could learn how to code for real, quit my candy making career and started a 12 week web development bootcamp at <a className={utilStyles.linkFeature} href="https://generalassemb.ly/">General Assembly</a> 🍬</li>
-          <li className={utilStyles.listItemStandard}><strong>June 2018:</strong> Started as a Junior Front-End Web Developer at Finder 👩🏻‍💻</li>
+          <li className={utilStyles.listItemStandard}><strong>June 2018:</strong> Started as a Junior Front-End Web Developer at <a className={utilStyles.linkFeature} href="https://www.finder.com.au/">Finder</a> 👩🏻‍💻</li>
           <li className={utilStyles.listItemStandard}><strong>September 2019:</strong> Promoted to Engineer 🎉</li>
+          <li className={utilStyles.listItemStandard}><strong>August 2020:</strong> Joining the Editor Fundamentals team at <a className={utilStyles.linkFeature} href="https://www.atlassian.com/">Atlassian</a> 🥳</li>
         </ul>
-
-        <p>I’m inspired my minimalist and quirky designs that prioritise accessibility, and I love working within a highly creative team who value openness and collaboration.</p>
       </section>
       <section className={utilStyles.imageWrapper}>
         <img
@@ -42,10 +41,6 @@ export default function About() {
           <li className={utilStyles.listItemStandard}>Helped propose and implement a set of web accessibility engineering standards.</li>
           <li className={utilStyles.listItemStandard}>Volunteer with the meetup group <a className={utilStyles.linkFeature} href="https://www.meetup.com/en-AU/Men-Championing-Change-Meetup/">Men Championing Change</a>.</li>
         </ul>
-      </section>
-      <section>
-        <h3 className={utilStyles.h3}>Currently learning</h3>
-        <p>Currently my focus is on improving my JavaScript skills and I’ve just completed a <a className={utilStyles.linkFeature} href="http://www.centreforinclusivedesign.org.au/services/pcwa/">Professional Certificate in Web Accessibility</a>.</p>
       </section>
       <section className={utilStyles.imageWrapper}>
         <img

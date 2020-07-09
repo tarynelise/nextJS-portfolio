@@ -14,7 +14,7 @@ export default function Home() {
           Hello, I’m <strong>Taryn!</strong>
         </p>
         <p>
-          I’m a confectioner turned <strong>front-end web developer</strong> in Sydney, Australia.
+          I’m a confectioner turned <strong>front-end developer</strong> in Sydney, Australia.
         </p>
         <p>
           I love creating art with CSS and dabbling in design, but I'm most passionate about accessibility and diversity in the tech industry. And my fluffy doggo!

@@ -16,7 +16,7 @@ export default function Footer() {
           <a className={`${utilStyles.linkFeature} ${styles.footer__listLink}`} href="https://www.instagram.com/taryn.codes/">Instagram</a>
         </li>
         <li className={styles.footer__listItem}>
-          <a className={`${utilStyles.linkFeature} ${styles.footer__listLink}`} href="https://github.com/tarynelise">GitHub</a>
+          <a className={`${utilStyles.linkFeature} ${styles.footer__listLink}`} href="https://github.com/tarynewens">GitHub</a>
         </li>
         <li className={styles.footer__listItem}>
           <a className={`${utilStyles.linkFeature} ${styles.footer__listLink}`} href="https://www.linkedin.com/in/tarynewens/">LinkedIn</a>
