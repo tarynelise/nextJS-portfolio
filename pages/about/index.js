@@ -15,7 +15,7 @@ export default function About() {
           <li className={utilStyles.listItemStandard}><strong>February 2018:</strong> Finally realised I could learn how to code for real, quit my candy making career and started a 12 week web development bootcamp at <a className={utilStyles.linkFeature} href="https://generalassemb.ly/">General Assembly</a> 🍬</li>
           <li className={utilStyles.listItemStandard}><strong>June 2018:</strong> Started as a Junior Front-End Web Developer at <a className={utilStyles.linkFeature} href="https://www.finder.com.au/">Finder</a> 👩🏻‍💻</li>
           <li className={utilStyles.listItemStandard}><strong>September 2019:</strong> Promoted to Engineer 🎉</li>
-          <li className={utilStyles.listItemStandard}><strong>August 2020:</strong> Joining the Editor Fundamentals team at <a className={utilStyles.linkFeature} href="https://www.atlassian.com/">Atlassian</a> 🥳</li>
+          <li className={utilStyles.listItemStandard}><strong>August 2020:</strong> Joined the Editor Fundamentals team at <a className={utilStyles.linkFeature} href="https://www.atlassian.com/">Atlassian</a> 🥳</li>
         </ul>
       </section>
       <section className={utilStyles.imageWrapper}>
