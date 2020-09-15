@@ -17,7 +17,7 @@ export default function Home() {
           I’m a confectioner turned <strong>front-end developer</strong> in Sydney, Australia.
         </p>
         <p>
-          I love creating art with CSS and dabbling in design, but I'm most passionate about accessibility and diversity in the tech industry. And my fluffy dog!
+          I'm passionate about inclusion, accessibility, and improving user experiences for all. I also enjoy getting creative with CSS, and occasionally dabbling in design!
         </p>
 
         <div>
