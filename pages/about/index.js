@@ -37,8 +37,8 @@ export default function About() {
           <li className={utilStyles.listItemStandard}>Gutenberg CMS: building ‘blocks’ (components) for the new WordPress editor, using a hybrid renderer that renders Wordpress content in a Next.JS front-end.</li>
           <li className={utilStyles.listItemStandard}>Engineering diversity working group.</li>
           <li className={utilStyles.listItemStandard}>Finder <a className={utilStyles.linkFeature} href="https://medium.com/finder-tech">Tech Blog.</a></li>
-          <li className={utilStyles.listItemStandard}>Ran web accessibility learning breaks for our team.</li>
-          <li className={utilStyles.listItemStandard}>Helped propose and implement a set of web accessibility engineering standards.</li>
+          <li className={utilStyles.listItemStandard}>Web accessibility learning breaks.</li>
+          <li className={utilStyles.listItemStandard}>Helped propose and implement web accessibility standards.</li>
           <li className={utilStyles.listItemStandard}>Volunteer with the meetup group <a className={utilStyles.linkFeature} href="https://www.meetup.com/en-AU/Men-Championing-Change-Meetup/">Men Championing Change</a>.</li>
         </ul>
       </section>
@@ -74,6 +74,13 @@ export default function About() {
               <small className={utilStyles.lightText}>at a General Assembly event ‘How to land your dream gig in tech’, June 2019</small>
             </li>
           </ul>
+      </section>
+      <section>
+        <h3 className={utilStyles.h3}>When I'm not at a computer</h3>
+          <p>You'll usually find me going on walks with <a className={utilStyles.linkFeature} href="https://www.instagram.com/lexi.samoyed" target="_blank" rel="noopener noreferrer">Lexi the Samoyed dog</a>, exploring our local area and Sydney beaches. 🐶</p>
+          <p>Like most millenials, I have an ever increasing obsession with indoor plants and need to be held back from the Bunnings plant section. 🌱</p>
+          <p>I still bake on occasion and am trying to make #DevCakes a thing. 🎂 </p>
+          <p>I'm also a bit of a bookworm, trying to mix up my reading list of my favourite fiction novels with technical and career development books. 📚</p>
       </section>
     </Layout>
   )
