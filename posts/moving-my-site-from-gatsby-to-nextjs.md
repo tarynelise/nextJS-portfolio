@@ -100,7 +100,7 @@ I'm not sure why it works this way, if anyone would like to explain it to me ple
 
 ### Wrap up
 
-So that's just my initial thoughts from building a very simple site with both Gatsby and Next.JS! If you're interested you can view my Github repos for each version, [GatsbyJS with Wordpress](https://github.com/tarynelise/taryn-codes) and [NextJS](https://github.com/tarynelise/nextJS-portfolio).
+So that's just my initial thoughts from building a very simple site with both Gatsby and Next.JS! If you're interested you can view my Github repos for each version, [GatsbyJS with Wordpress](https://github.com/tarynewens/taryn-codes) and [NextJS](https://github.com/tarynewens/nextJS-portfolio).
 
 Both are great frameworks and I'm sure once I spend the time to learn GraphQL I'll love Gatsby just as much (if not more!) than Next.JS. 
 

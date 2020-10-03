@@ -13,7 +13,7 @@ I started searching for these organisations but I knew there must be more than m
 
 Hopefully this list will be useful to someone.
 
-**Update:** after receiving feedback I have created a GitHub repo called [Australian Women STEM Groups](https://github.com/tarynelise/australian-women-stem-groups) that anyone can add to!
+**Update:** after receiving feedback I have created a GitHub repo called [Australian Women STEM Groups](https://github.com/tarynewens/australian-women-stem-groups) that anyone can add to!
 
 ## For young girls specifically
 
