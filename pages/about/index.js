@@ -33,12 +33,12 @@ export default function About() {
       <section>
         <h3 className={utilStyles.h3}>Things I’ve worked on</h3>
         <ul className={utilStyles.listStandard}>
-          <li className={utilStyles.listItemStandard}>Design Ops: as a team we refreshed the navigation, page templates, side bar and more, giving the whole site a fresh new look and improved user experience. The page templates we created and rolled out across the site reduced bounce rate by ~25%.</li>
-          <li className={utilStyles.listItemStandard}>Gutenberg CMS: building ‘blocks’ (components) for the new WordPress editor, using a hybrid renderer that renders Wordpress content in a Next.JS front-end.</li>
-          <li className={utilStyles.listItemStandard}>Engineering diversity working group.</li>
-          <li className={utilStyles.listItemStandard}>Finder <a className={utilStyles.linkFeature} href="https://medium.com/finder-tech">Tech Blog.</a></li>
-          <li className={utilStyles.listItemStandard}>Web accessibility learning breaks.</li>
-          <li className={utilStyles.listItemStandard}>Helped propose and implement web accessibility standards.</li>
+          <li className={utilStyles.listItemStandard}>[Finder] Design Ops: as a team we refreshed the navigation, page templates, side bar and more, giving the whole site a fresh new look and improved user experience. The page templates we created and rolled out across the site reduced bounce rate by ~25%.</li>
+          <li className={utilStyles.listItemStandard}>[Finder] Gutenberg CMS: building ‘blocks’ (components) for the new WordPress editor, using a hybrid renderer that renders Wordpress content in a Next.JS front-end.</li>
+          <li className={utilStyles.listItemStandard}>[Finder] Engineering diversity working group.</li>
+          <li className={utilStyles.listItemStandard}>[Finder]  <a className={utilStyles.linkFeature} href="https://medium.com/finder-tech">Tech Blog.</a></li>
+          <li className={utilStyles.listItemStandard}>[Finder] Web accessibility learning breaks.</li>
+          <li className={utilStyles.listItemStandard}>[Finder] Helped propose and implement web accessibility standards.</li>
           <li className={utilStyles.listItemStandard}>Volunteer with the meetup group <a className={utilStyles.linkFeature} href="https://www.meetup.com/en-AU/Men-Championing-Change-Meetup/">Men Championing Change</a>.</li>
         </ul>
       </section>
@@ -69,11 +69,23 @@ export default function About() {
               <small className={utilStyles.lightText}> at the <a className={utilStyles.linkFeature} href="https://www.meetup.com/en-AU/SydCSS/" target="_blank" rel="noopener noreferrer">SydCSS</a>&nbsp;first time speakers night, June 2019</small>
             </li>
             <li className={utilStyles.listItemStandard}>
-              <a className={utilStyles.linkFeature} href="https://docs.google.com/presentation/d/179cj8W5iFph7q565byeW1XtjmwqA4GcNQHxUv-Ix7fg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">“Finding your passions and utilising your skill sets”</a>
+              <a className={utilStyles.linkFeature} href="https://docs.google.com/presentation/d/1I-kJOWeFS35rfZ7yx6FV6cVCzaor68LlSFrHBxKuuDY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">“Finding your passions and utilising your skill sets”</a>
               <br/>
               <small className={utilStyles.lightText}>at a General Assembly event ‘How to land your dream gig in tech’, June 2019</small>
             </li>
           </ul>
+      </section>
+      <section className={utilStyles.imageWrapper}>
+        <img
+          src="/images/taryn-lexi-desk1.jpg"
+          className={utilStyles.imageHalf}
+          alt="Taryn at her desk with her big fluffy dog begging for treats"
+        />
+        <img
+          src="/images/taryn-lexi-desk2.jpg"
+          className={utilStyles.imageHalf}
+          alt="Taryn at her desk giving her big fluffy dog a treat"
+        />
       </section>
       <section>
         <h3 className={utilStyles.h3}>When I'm not at a computer</h3>
