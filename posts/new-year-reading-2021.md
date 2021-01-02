@@ -39,7 +39,7 @@ First, to recap 2020, here are some of my favourite reads (or listens - some wer
 
 ### Reading plans for 2021
 
-I have been using [Goodreads](https://www.goodreads.com/user/year_in_books/2020/100416654) to track my reading progress in the past couple of years. It's a pretty terrible website though it does the job. There are few alternatives, unfortunately.
+I have been using [Goodreads](https://www.goodreads.com/) to track my reading progress in the past couple of years. It's a pretty terrible website though it does the job. There are few alternatives, unfortunately.
 
 This year I wanted to plan my reading in advance, so I've used [Notion](https://www.notion.so/) to create a Reading List & tracker.
 
@@ -53,5 +53,4 @@ If you're interested, I will be sharing my thoughts & reviews of these books on 
 ### Important links
 
 - [My 2021 Reading List in Notion](https://www.notion.so/tarynewens/2021-Reading-List-218f437e344e48019a628382c3f09334)
-- [My 2020 year in books](https://www.goodreads.com/user/year_in_books/2020/100416654)
 - [My instagram account where I'll be reviewing the books I read](https://www.instagram.com/taryn.codes/)
