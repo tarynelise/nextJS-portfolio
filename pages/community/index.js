@@ -29,6 +29,22 @@ export default function Community() {
             as well as other career changers.
           </p>
         </section>
+
+        <section>
+          <h3 className={utilStyles.h3}>Men Championing Change</h3>
+          <p>
+            I volunteer with the meetup group{" "}
+            <a
+              className={utilStyles.linkFeature}
+              href="https://www.meetup.com/en-AU/Men-Championing-Change-Meetup/"
+            >
+              Men Championing Change
+            </a>
+            , assisting on their organising committee and looking after their
+            Twitter account.
+          </p>
+        </section>
+
         <section className={utilStyles.imageWrapper}>
           <img
             src="/images/taryn-speaking1.jpg"

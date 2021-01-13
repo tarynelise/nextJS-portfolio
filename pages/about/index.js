@@ -97,16 +97,6 @@ export default function About() {
           <li className={utilStyles.listItemStandard}>
             [Finder] Helped propose and implement web accessibility standards.
           </li>
-          <li className={utilStyles.listItemStandard}>
-            Volunteer with the meetup group{" "}
-            <a
-              className={utilStyles.linkFeature}
-              href="https://www.meetup.com/en-AU/Men-Championing-Change-Meetup/"
-            >
-              Men Championing Change
-            </a>
-            .
-          </li>
         </ul>
       </section>
       <section className={utilStyles.imageWrapper}>
