@@ -61,7 +61,13 @@ export default function Community() {
           <h3 className={utilStyles.h3}>Meetups</h3>
           <ul className={utilStyles.listStandard}>
             <li className={utilStyles.listItemStandard}>
-              “Personal branding to get your dream job”
+              <a
+                className={utilStyles.linkFeature}
+                href="https://docs.google.com/presentation/d/1mOWn44fw9hPnMRPUXxeY5vcUym1QFtjg4Gm0zg9QE-M/edit?usp=sharing"
+              >
+                “Personal branding to get your dream job”
+              </a>
+
               <br />
               <small className={utilStyles.lightText}>
                 at the{" "}
@@ -111,6 +117,25 @@ export default function Community() {
             <li className={utilStyles.listItemStandard}>
               <a
                 className={utilStyles.linkFeature}
+                href="https://docs.google.com/presentation/d/1I-kJOWeFS35rfZ7yx6FV6cVCzaor68LlSFrHBxKuuDY/edit?usp=sharing"
+              >
+                “Finding your passions and utilising your skill sets”
+              </a>
+              <br />
+              <small className={utilStyles.lightText}>
+                at a{" "}
+                <a
+                  className={utilStyles.linkFeature}
+                  href="https://generalassemb.ly/"
+                >
+                  General Assembly
+                </a>{" "}
+                event ‘How to land your dream gig in tech’, June 2019
+              </small>
+            </li>
+            <li className={utilStyles.listItemStandard}>
+              <a
+                className={utilStyles.linkFeature}
                 href="https://docs.google.com/presentation/d/19nUNOWb3MLZZXNZhlWYwP9CXvZnWKJUBjjlVzm4RBsw/edit#slide=id.g35f391192_00"
               >
                 “CSS images: not just for ‘funsies’”
@@ -128,25 +153,6 @@ export default function Community() {
                   SydCSS
                 </a>
                 &nbsp;first time speakers night, June 2019
-              </small>
-            </li>
-            <li className={utilStyles.listItemStandard}>
-              <a
-                className={utilStyles.linkFeature}
-                href="https://docs.google.com/presentation/d/1I-kJOWeFS35rfZ7yx6FV6cVCzaor68LlSFrHBxKuuDY/edit?usp=sharing"
-              >
-                “Finding your passions and utilising your skill sets”
-              </a>
-              <br />
-              <small className={utilStyles.lightText}>
-                at a{" "}
-                <a
-                  className={utilStyles.linkFeature}
-                  href="https://generalassemb.ly/"
-                >
-                  General Assembly
-                </a>{" "}
-                event ‘How to land your dream gig in tech’, June 2019
               </small>
             </li>
           </ul>
