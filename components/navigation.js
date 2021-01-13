@@ -1,7 +1,6 @@
-import styles from './navigation.module.css'
+import styles from "./navigation.module.css";
 // import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
-
+import Link from "next/link";
 
 export default function Navigation() {
   return (
@@ -9,7 +8,7 @@ export default function Navigation() {
       <div className={styles.nav__separator}></div>
       <ul id="menu" className={styles.nav__list}>
         <li className={styles.nav__listItem}>
-          <Link href="/" >
+          <Link href="/">
             <a className={styles.nav__link}>Home</a>
           </Link>
         </li>
@@ -24,6 +23,11 @@ export default function Navigation() {
           </Link>
         </li>
         <li className={styles.nav__listItem}>
+          <Link href="/community">
+            <a className={styles.nav__link}>Community</a>
+          </Link>
+        </li>
+        <li className={styles.nav__listItem}>
           <Link href="/contact">
             <a className={styles.nav__link}>Contact</a>
           </Link>
@@ -31,5 +35,5 @@ export default function Navigation() {
       </ul>
       <div className={styles.nav__separator}></div>
     </nav>
-  )
+  );
 }
