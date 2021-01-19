@@ -17,6 +17,10 @@ export default function Layout({ children, home }) {
           content="A portfolio site for Taryn Ewens, Front-End Web Developer in Sydney, Australia."
         />
         <meta name="og:title" content={siteTitle} />
+        <meta
+          name="google-site-verification"
+          content="-ys_hH9AvtYVdhUd3g9XoxoHqPEyExorK95JKZgmVX4"
+        />
       </Head>
       <header className={styles.header}>
         {home ? (
