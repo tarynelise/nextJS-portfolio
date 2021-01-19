@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6b3fac52-74d7-402e-98ee-b4b92cde439e/deploy-status)](https://app.netlify.com/sites/taryn-codes-production/deploys)
 
-It's an updated version of my portfolio site on [www.taryn.codes](https://www.taryn.codes) but built in Next.JS.
+It's an updated version of my portfolio site on [www.tarynewens.com](https://www.tarynewens.com) but built in Next.JS.
 
 The previous version used a headless Wordpress CMS, with a Gatsby front-end, but inspired by the [Next.JS 'learn' tutorial](https://nextjs.org/learn/basics/create-nextjs-app), I wanted to try to rebuild it in Next.JS and use markdown for the blog posts rather than a CMS.
 
