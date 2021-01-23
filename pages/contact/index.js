@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../../components/layout'
-import utilStyles from '../../styles/utils.module.css'
+import Head from "next/head";
+import Layout, { siteTitle } from "../../components/layout";
+import utilStyles from "../../styles/utils.module.css";
 
 export default function Contact() {
   return (
@@ -10,9 +10,17 @@ export default function Contact() {
       </Head>
       <section className={utilStyles.headingMd}>
         <h2>Want to say hello?</h2>
-        <p>You can reach out by email via <a className={utilStyles.linkFeature} href="mailto:taryn@taryn.codes">taryn@taryn.codes</a>.</p>
+        <p>
+          You can reach out by email via{" "}
+          <a
+            className={utilStyles.linkFeature}
+            href="mailto:hello@tarynewens.com"
+          >
+            hello@tarynewens.com
+          </a>
+          .
+        </p>
       </section>
     </Layout>
-  )
+  );
 }
-

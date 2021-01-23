@@ -128,9 +128,6 @@ export default function About() {
           plants and need to be held back from the Bunnings plant section. 🌱
         </p>
         <p>
-          I still bake on occasion and am trying to make #DevCakes a thing. 🎂{" "}
-        </p>
-        <p>
           I'm also a bit of a bookworm, reviewing technical and career
           development books on my{" "}
           <a
