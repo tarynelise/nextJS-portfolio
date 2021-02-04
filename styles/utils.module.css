@@ -84,7 +84,7 @@
   display: block;
 }
 
-.imageHalf:first-of-type{
+.imageHalf:first-of-type {
   margin-bottom: 1rem;
 }
 
@@ -102,6 +102,20 @@
   margin-bottom: 0.25rem;
 }
 
+.bookReviewTitle {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.bookReviewAuthor {
+  margin-top: 0.25rem;
+}
+
+.hr {
+  border: 1px solid var(--blueLight);
+  margin: 2rem;
+}
+
 @media only screen and (min-width: 450px) {
   .imageWrapper {
     flex-direction: row;
@@ -111,7 +125,7 @@
     display: inline-block;
   }
 
-  .imageHalf:first-of-type{
+  .imageHalf:first-of-type {
     margin-bottom: 0;
   }
 }

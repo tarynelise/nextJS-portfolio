@@ -28,6 +28,11 @@ export default function Navigation() {
           </Link>
         </li>
         <li className={styles.nav__listItem}>
+          <Link href="/reading">
+            <a className={styles.nav__link}>Reading</a>
+          </Link>
+        </li>
+        <li className={styles.nav__listItem}>
           <Link href="/contact">
             <a className={styles.nav__link}>Contact</a>
           </Link>
