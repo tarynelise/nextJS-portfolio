@@ -101,8 +101,8 @@ export default function About() {
           </h3>
           <p className={utilStyles.bookReviewAuthor}>by Nir Eyal, Julie Li</p>
           <p>
-            My unplanned bonus book of the month. If you’ve never read anything
-            at all, ever, about distraction or habits or focus then this is
+            My unplanned bonus book of January. If you’ve never read anything at
+            all, ever, about distraction or habits or focus then this is
             probably a good place to start! But there’s nothing really new or
             groundbreaking. One chapter felt like a summarised version of Atomic
             Habits (which I’ve already read and loved!). Others chapters were
