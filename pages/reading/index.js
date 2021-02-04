@@ -11,9 +11,14 @@ export default function About() {
       <section className={utilStyles.headingMd}>
         <h2>Book Reviews</h2>
         <p>
-          A selection of tech and tech career related books which I've read this
+          A selection of tech and career related books which I've read this
           year.
         </p>
+        <h3>Currently reading</h3>
+        <ul>
+          <li>Deep Work by Cal Newport</li>
+          <li>How Computers Really Work by Matthew Justice</li>
+        </ul>
         <h3>2021</h3>
         <ul>
           {/* <li>
