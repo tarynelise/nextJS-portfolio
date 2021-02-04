@@ -1,14 +1,13 @@
-import styles from './quote.module.css'
+import styles from "./quote.module.css";
 
 export default function Quote() {
-
   let quoteOfTheDay = pickQuote();
 
   function pickQuote() {
     let quotes = [
       "Instead of a justify-content center, or flex-end... I need a justify-content: flex-slightly-past-two-thirds.",
 
-      "I'm just throwing var dumps around and trying to understand php.",
+      "I'm just throwing var_dumps around and trying to understand PHP.",
 
       "I think I var_dumped my way to success!",
 
@@ -42,21 +41,18 @@ export default function Quote() {
 
       "I ate so many dumplings for lunch I feel like I am a dumpling now.",
 
-      "Me: 'It's not time yet I'm still working'. Lexi: 'arooorooooooo'. Me: 'No Lexi, be patient'. Lexi: 'arrooo'.",
-
       "If TypeScript was an object I'd have thrown it in the bin by now",
 
       "Ejecting create-react-app isn't quite like painting a landscape...",
-    ]
+    ];
 
     let n = Math.floor(Math.random() * quotes.length);
     return quotes[n];
   }
 
-
   return (
     <blockquote className={styles.quoteWrapper}>
       <p className={styles.quote}>"{quoteOfTheDay}" - Taryn</p>
     </blockquote>
-  )
+  );
 }
