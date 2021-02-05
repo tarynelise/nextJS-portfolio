@@ -68,35 +68,47 @@ export default function About() {
       </section>
       <section>
         <h3 className={utilStyles.h3}>Things I’ve worked on</h3>
+        <h4>Atlassian</h4>
         <ul className={utilStyles.listStandard}>
           <li className={utilStyles.listItemStandard}>
-            [Finder] Design Ops: as a team we refreshed the navigation, page
-            templates, side bar and more, giving the whole site a fresh new look
-            and improved user experience. The page templates we created and
-            rolled out across the site reduced bounce rate by ~25%.
+            Cypress tests for editor functionality to allow manual testing time
+            to be spent on more complex scenarios
           </li>
           <li className={utilStyles.listItemStandard}>
-            [Finder] Gutenberg CMS: building ‘blocks’ (components) for the new
-            WordPress editor, using a hybrid renderer that renders Wordpress
-            content in a Next.JS front-end.
+            <a href="https://community.atlassian.com/t5/Confluence-Cloud-articles/Solving-WTF-moments-in-Confluence-Improvements-to-lists-have/ba-p/1601228">
+              Improvements to lists in the cloud editor
+            </a>
+          </li>
+        </ul>
+        <h4>Finder</h4>
+        <ul className={utilStyles.listStandard}>
+          <li className={utilStyles.listItemStandard}>
+            Design Ops: as a team we refreshed the navigation, page templates,
+            side bar and more, giving the whole site a fresh new look and
+            improved user experience. The page templates we created and rolled
+            out across the site reduced bounce rate by ~25%.
           </li>
           <li className={utilStyles.listItemStandard}>
-            [Finder] Engineering diversity working group.
+            Gutenberg CMS: building ‘blocks’ (components) for the new WordPress
+            editor, using a hybrid renderer that renders Wordpress content in a
+            Next.JS front-end.
           </li>
           <li className={utilStyles.listItemStandard}>
-            [Finder]{" "}
+            Engineering diversity working group.
+          </li>
+          <li className={utilStyles.listItemStandard}>
             <a
               className={utilStyles.linkFeature}
               href="https://medium.com/finder-tech"
             >
-              Tech Blog.
+              Finder Tech Blog.
             </a>
           </li>
           <li className={utilStyles.listItemStandard}>
-            [Finder] Web accessibility learning breaks.
+            Web accessibility learning breaks.
           </li>
           <li className={utilStyles.listItemStandard}>
-            [Finder] Helped propose and implement web accessibility standards.
+            Helped propose and implement web accessibility standards.
           </li>
         </ul>
       </section>
