@@ -15,15 +15,12 @@ export default function About() {
           year.
         </p>
         <h3>Currently reading</h3>
-        <ul>
-          <li>Deep Work by Cal Newport</li>
-          <li>How Computers Really Work by Matthew Justice</li>
-        </ul>
+        <p>How Computers Really Work by Matthew Justice</p>
         <h3>2021</h3>
         <ul>
-          {/* <li>
+          <li>
             <a href="#book-deepWork">Deep Work</a>
-          </li> */}
+          </li>
           <li>
             <a href="#book-indistractable">Indistractable</a>
           </li>
@@ -38,9 +35,9 @@ export default function About() {
           </li>
         </ul>
         <hr className={utilStyles.hr} />
-        {/* <section className={utilStyles.bookReview}>
+        <section className={utilStyles.bookReview}>
           <img
-            src="/bookImages/invisible_women.png"
+            src="/bookImages/deep_work.jpg"
             className={utilStyles.bookReviewImage}
             alt="The audio book of Deep Work"
           />
@@ -60,8 +57,9 @@ export default function About() {
             Saying all this however, this book has inspired me to improve my
             daily habits. Since starting this book I have become much better at
             time blocking and scheduling my day. I also removed all social media
-            apps from my phone during week. It’s been *really* hard but I didn’t
-            miss them as much as I thought I would.
+            apps from my phone during the working week. It’s been *really* hard
+            but I actually didn’t miss them as much as I thought I would. It's
+            more just a habit than than anything.
           </p>
 
           <p>Other key takeaways from the book:</p>
@@ -87,9 +85,13 @@ export default function About() {
             of a struggle but it’s definitely a good kick in the pants to take
             some action towards improving your focus.
           </p>
+          <p>
+            I'm quite keen to check out Cal's book on 'Digital Minimalism'
+            sometime soon.
+          </p>
           <p>⭐️⭐️⭐️⭐️</p>
         </section>
-        <hr className={utilStyles.hr} /> */}
+        <hr className={utilStyles.hr} />
         <section className={utilStyles.bookReview}>
           <img
             src="/bookImages/indistractable.png"
