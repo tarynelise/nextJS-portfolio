@@ -58,8 +58,7 @@ export default function About() {
             daily habits. Since starting this book I have become much better at
             time blocking and scheduling my day. I also removed all social media
             apps from my phone during the working week. It’s been *really* hard
-            but I actually didn’t miss them as much as I thought I would. It's
-            more just a habit than than anything.
+            but I actually didn’t miss them as much as I thought I would.
           </p>
 
           <p>Other key takeaways from the book:</p>
