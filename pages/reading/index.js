@@ -89,6 +89,9 @@ export default function About() {
             sometime soon.
           </p>
           <p>⭐️⭐️⭐️⭐️</p>
+          <a href="https://www.booktopia.com.au/deep-work-cal-newport/book/9780349411903.html">
+            Purchase Deep Work from Booktopia
+          </a>
         </section>
         <hr className={utilStyles.hr} />
         <section className={utilStyles.bookReview}>
@@ -116,6 +119,9 @@ export default function About() {
             doubt it.
           </p>
           <p>⭐️⭐️</p>
+          <a href="https://www.booktopia.com.au/indistractable-nir-eyal/book/9781526610201.html">
+            Purchase Indistractable from Booktopia
+          </a>
         </section>
         <hr className={utilStyles.hr} />
         <section className={utilStyles.bookReview}>
@@ -161,6 +167,9 @@ export default function About() {
             place to start.
           </p>
           <p>⭐️⭐️⭐️⭐️⭐️</p>
+          <a href="https://www.booktopia.com.au/technically-wrong-sara-wachter-boettch/book/9780393356045.html">
+            Purchase Technically Wrong from Booktopia
+          </a>
         </section>
         <hr className={utilStyles.hr} />
         <section className={utilStyles.bookReview}>
@@ -216,6 +225,9 @@ export default function About() {
             companies!
           </p>
           <p>⭐️⭐️⭐️⭐️</p>
+          <a href="https://www.booktopia.com.au/algorithms-of-oppression-safiya-umoja-noble/book/9781479837243.html">
+            Purchase Algorithms of Oppression from Booktopia
+          </a>
         </section>
         <hr className={utilStyles.hr} />
         <section className={utilStyles.bookReview}>
@@ -252,6 +264,9 @@ export default function About() {
             woman). 😓
           </p>
           <p>⭐️⭐️⭐️⭐️⭐️</p>
+          <a href="https://www.booktopia.com.au/invisible-women-caroline-criado-perez/book/9781784706289.html">
+            Purchase Invisible Women from Booktopia
+          </a>
         </section>
       </section>
     </Layout>
