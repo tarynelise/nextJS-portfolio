@@ -16,6 +16,7 @@ export default function About() {
         </p>
         <h3>Currently reading</h3>
         <p>How Computers Really Work by Matthew Justice</p>
+        <p>Digital Minimalism by Cal Newport</p>
         <h3>2021</h3>
         <ul>
           <li>
