@@ -16,9 +16,11 @@ export default function About() {
         </p>
         <h3>Currently reading</h3>
         <p>How Computers Really Work by Matthew Justice</p>
-        <p>Digital Minimalism by Cal Newport</p>
         <h3>2021</h3>
         <ul>
+          <li>
+            <a href="#book-digitalMinimalism">Digital Minimalism</a>
+          </li>
           <li>
             <a href="#book-deepWork">Deep Work</a>
           </li>
@@ -35,6 +37,74 @@ export default function About() {
             <a href="#book-invisibleWomen">Invisible Women</a>
           </li>
         </ul>
+        <hr className={utilStyles.hr} />
+        <section className={utilStyles.bookReview}>
+          <img
+            src="/bookImages/digital_minimalism.jpg"
+            className={utilStyles.bookReviewImage}
+            alt="The book Digital Minimalism"
+          />
+          <h3
+            id="book-digitalMinimalism"
+            className={utilStyles.bookReviewTitle}
+          >
+            Digital Minimalism
+          </h3>
+          <p className={utilStyles.bookReviewAuthor}>by Cal Newport</p>
+          <p>
+            Having now read two of Cal’s books (
+            <a href="#book-deepWork">Deep Work</a> was my first), I’ve now come
+            to the firm decision that his way of writing is probably not for me.
+            However, the content is right up my alley!
+          </p>
+          <p>
+            While some of the content in Deep Work was great and useful, most of
+            it was rambling stories of people who have successfully worked
+            deeply in the past. Digital Minimalism is much more practical and
+            although it still explores background information to back up each
+            suggestion, I found I wasn’t tuning out as much as I had with Deep
+            Work. It is a definite improvement!
+          </p>
+          <p>
+            For the month of March I’ve been undertaking the suggested “digital
+            declutter”. I created rules for the digital products that I would be
+            taking a break from, and for most part so far I have stuck to them.
+            I’m interested to see how I feel after the end of the month when I’m
+            “allowed” to return to these services. I’m hoping to put some of the
+            suggestions in this book into practise to limit my social media
+            usage.
+          </p>
+          <p>Key takeaways:</p>
+          <ul>
+            <li>
+              Do a 30 day “digital declutter”. Make sure you define the rules,
+              take a 30 day break, and then reintroduce only the technologies
+              that add a lot of value to your life.{" "}
+            </li>
+            <li>
+              Replace time on digital products with high quality leisure
+              activities
+            </li>
+            <li>Make things (I’ve started crocheting again)</li>
+            <li>Join something (I’ve joined a dog obedience club)</li>
+            <li>
+              Delete social media from your phone - desktop only (this is hard
+              for Instagram!)
+            </li>
+            <li>Don’t click ‘like’ - have conversations with people instead</li>
+            <li>Plan for and block out time for your leisure activities</li>
+          </ul>
+          <p>
+            I’m giving this one 4 stars as well, but it’s a strong 4 stars
+            rather than the reluctant 4 stars I gave Deep Work. I like Cal’s
+            content, but I appreciated the more direct practical advice of
+            Digital Minimalism.
+          </p>
+          <p>⭐️⭐️⭐️⭐️</p>
+          <a href="https://www.booktopia.com.au/digital-minimalism-cal-newport/book/9780241453575.html">
+            Purchase Digital Minimalism from Booktopia
+          </a>
+        </section>
         <hr className={utilStyles.hr} />
         <section className={utilStyles.bookReview}>
           <img
