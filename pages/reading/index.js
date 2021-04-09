@@ -14,10 +14,13 @@ export default function About() {
           A selection of tech and career related books which I've read this
           year.
         </p>
-        <h3>Currently reading</h3>
-        <p>How Computers Really Work by Matthew Justice</p>
+        {/* <h3>Currently reading</h3>
+        <p>How Computers Really Work by Matthew Justice</p> */}
         <h3>2021</h3>
         <ul>
+          <li>
+            <a href="#book-howComputersReallyWork">How Computers Really Work</a>
+          </li>
           <li>
             <a href="#book-digitalMinimalism">Digital Minimalism</a>
           </li>
@@ -37,6 +40,204 @@ export default function About() {
             <a href="#book-invisibleWomen">Invisible Women</a>
           </li>
         </ul>
+        <hr className={utilStyles.hr} />
+        <section className={utilStyles.bookReview}>
+          <img
+            src="/bookImages/how_computers_really_work.jpg"
+            className={utilStyles.bookReviewImage}
+            alt="The book How Computers Really Work"
+          />
+          <h3
+            id="book-howComputersReallyWork"
+            className={utilStyles.bookReviewTitle}
+          >
+            How Computers Really Work
+          </h3>
+          <p className={utilStyles.bookReviewAuthor}>by Matthew Justice</p>
+          <p>
+            I have to admit I was initially going to give this book 3 stars.
+            Last week however, I was struggling to understand something at work
+            and then I remembered that the concept was discussed in the book! I
+            was able to go back and use it as a reference! I love books that
+            pull me back in after I’ve finished reading them. 4 stars!
+          </p>
+
+          <p>
+            I learnt a number of things from this book. Mainly I learnt that I
+            *definitely* want to stick to the software side of computers. The
+            hardware just doesn’t interest me at all! I really struggled getting
+            through the first half of the book because of this. It took me 2
+            months to get through this book mainly because sitting down and
+            reading through basically a textbook about ‘math with digital
+            circuits’ made me want to cry.
+          </p>
+
+          <p>
+            This book broadly covers concepts from basic electrical circuits,
+            all the way up to modern technologies like blockchain. Each chapter
+            includes projects to really help you understand but you need a
+            raspberry pi set up to do these. Unfortunately I don’t have one so I
+            had to skip the projects. As a result I don’t think I got as much
+            out of the book as I could have.
+          </p>
+
+          <p>
+            If you have lots of time, an interest in computer hardware, and own
+            a raspberry pi (or are willing to buy one) then you will probably
+            love this book! For me personally, I just found an occasional nugget
+            of knowledge that was really valuable to my career as a software
+            engineer / web dev. Also the next time my parents ask me what
+            bitcoin mining is, I’ll have an answer!
+          </p>
+
+          <p>
+            I think for the right target audience this book could be a really
+            excellent resource and I’m super grateful to{" "}
+            <a href="https://nostarch.com/">No Starch Press</a> for sending me
+            this copy! Thank you! ❤️
+          </p>
+          <p>⭐️⭐️⭐️⭐️</p>
+          <a href="https://nostarch.com/how-computers-really-work">
+            Purchase How Computers Really Work from No Starch Press
+          </a>
+        </section>
+        <hr className={utilStyles.hr} />
+        <section className={utilStyles.bookReview}>
+          <img
+            src="/bookImages/deep_work.jpg"
+            className={utilStyles.bookReviewImage}
+            alt="The audio book of Deep Work"
+          />
+          <h3 id="book-deepWork" className={utilStyles.bookReviewTitle}>
+            Deep Work
+          </h3>
+          <p className={utilStyles.bookReviewAuthor}>by Cal Newport</p>
+          <p>
+            I’m giving this book a reluctant 4 stars. It’s reluctant because
+            this book is full of long winded anecdotes about people who work
+            deeply. Which is fine, but ironically it distracted me from the key
+            takeaways of *how* to work deeply. To the point that I’m listening
+            to it a second time because I feel like I tuned out a bit! 😅
+          </p>
+
+          <p>
+            Saying all this however, this book has inspired me to improve my
+            daily habits. Since starting this book I have become much better at
+            time blocking and scheduling my day. I also removed all social media
+            apps from my phone during the working week. It’s been *really* hard
+            but I actually didn’t miss them as much as I thought I would.
+          </p>
+
+          <p>Other key takeaways from the book:</p>
+          <ul>
+            <li>
+              Have a consistent cut off time to finish work for the day (rest is
+              important for deep work!)
+            </li>
+            <li>Deep work takes *lots* of practise</li>
+            <li>
+              Even the most successful people can’t do more than 4 hours of deep
+              work per day.
+            </li>
+            <li>
+              Productive meditation is important: using the time when you’re
+              physically busy but mentally not (eg. walking the dog for me) to
+              mull over a problem
+            </li>
+          </ul>
+          <p>
+            If you love stories and anecdotes of successful people and how they
+            work, you’ll probably love this book! If you don’t, it will be more
+            of a struggle but it’s definitely a good kick in the pants to take
+            some action towards improving your focus.
+          </p>
+          <p>
+            I'm quite keen to check out Cal's book on 'Digital Minimalism'
+            sometime soon.
+          </p>
+          <p>⭐️⭐️⭐️⭐️</p>
+          <a href="https://www.booktopia.com.au/deep-work-cal-newport/book/9780349411903.html">
+            Purchase Deep Work from Booktopia
+          </a>
+        </section>
+        <hr className={utilStyles.hr} />
+        <section className={utilStyles.bookReview}>
+          <img
+            src="/bookImages/indistractable.png"
+            className={utilStyles.bookReviewImage}
+            alt="The audio book Indistractable"
+          />
+          <h3 id="book-indistractable" className={utilStyles.bookReviewTitle}>
+            Indistractable: How to Control Your Attention and Choose Your Life
+          </h3>
+          <p className={utilStyles.bookReviewAuthor}>by Nir Eyal, Julie Li</p>
+          <p>
+            My unplanned bonus book of January. If you’ve never read anything at
+            all, ever, about distraction or habits or focus then this is
+            probably a good place to start! But there’s nothing really new or
+            groundbreaking. One chapter felt like a summarised version of Atomic
+            Habits (which I’ve already read and loved!). Others chapters were
+            common sense, eg. remove apps and notifications from your phone.
+          </p>
+          <p>
+            There were some good tips in there but it wasn’t anything I hadn’t
+            heard before. Also, a great question came from @hilarycallaghan who
+            asked me if I thought it would apply to neurodiverse folk: I highly
+            doubt it.
+          </p>
+          <p>⭐️⭐️</p>
+          <a href="https://www.booktopia.com.au/indistractable-nir-eyal/book/9781526610201.html">
+            Purchase Indistractable from Booktopia
+          </a>
+        </section>
+        <hr className={utilStyles.hr} />
+        <section className={utilStyles.bookReview}>
+          <img
+            src="/bookImages/technically_wrong.png"
+            className={utilStyles.bookReviewImage}
+            alt="The book Technically Wrong"
+          />
+          <h3 id="book-technicallyWrong" className={utilStyles.bookReviewTitle}>
+            Technically Wrong
+          </h3>
+          <p className={utilStyles.bookReviewAuthor}>
+            by Sara Wachter-Boettcher
+          </p>
+          <p>
+            I *loved* this book! Definitely one of my favourites that I’ve read
+            lately!
+          </p>
+          <p>
+            If you’ve read Invisible Women it does touch on a lot of similar
+            concepts but this book is way shorter, way less intense, and won’t
+            leave you feeling emotionally drained. It also raises broader issues
+            in the tech industry. It touches on the myth of meritocracy as most
+            of these types of books do, but it looks more closely at tech
+            companies and examples of when things have gone wrong.
+          </p>
+          <p>
+            There’s examples from Twitter, Facebook, Uber, Reddit, Google,
+            Tumblr, etc. that prove time and time again what happens when the
+            people who are designing and building products all look the same,
+            all think the same. They’re famous examples so if you keep on top of
+            this sort of news, many of them won’t be a surprise to you - but if
+            you’re new to tech like I am it’s very interesting to read about!
+          </p>
+          <p>
+            There’s also a great concept in the book about designing with
+            “stress cases” in mind rather than “edge cases”.
+          </p>
+          <p>
+            If you work in the tech industry and haven’t yet begun researching
+            the types of impact badly designed technology can have (let alone
+            the tech industry itself), I highly recommend this book as a great
+            place to start.
+          </p>
+          <p>⭐️⭐️⭐️⭐️⭐️</p>
+          <a href="https://www.booktopia.com.au/technically-wrong-sara-wachter-boettch/book/9780393356045.html">
+            Purchase Technically Wrong from Booktopia
+          </a>
+        </section>
         <hr className={utilStyles.hr} />
         <section className={utilStyles.bookReview}>
           <img
