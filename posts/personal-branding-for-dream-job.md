@@ -13,11 +13,11 @@ But now I work at an enterprise software company - and it's my dream company!
 
 I taught myself very basic HTML and CSS when I was a kid and I always loved building websites. I had no idea that it was a career that I could have though. I wasn’t good at maths or science so I assumed STEM wasn’t for me.
 
-But in 2018 I realised that I actually could learn to code if I wanted. I quit my job and did a 12-week coding bootcamp with General Assembly. Two weeks later I started a junior front-end developer role. About a year later I was promoted to engineer.
+But in 2018 I realised that I actually could learn to code if I wanted. I quit my job and did a 12-week coding bootcamp with General Assembly. Two weeks later I started a junior front-end developer role.
 
-Then in 2020, I was referred to my current company and somehow managed to convince them that I had potential. They hired me. 🎉
+In 2020, I was referred to my current company and somehow managed to convince them that I had potential. They hired me. 🎉
 
-Of course, I have worked hard over the past few years to get here. Aside from learning to code, the biggest thing that helped me get to this point is my **personal branding**.<br><br>
+Of course, I have worked hard over the past few years to get here. Aside from learning to code (and a lot of privilege - that's a post for another time), the biggest thing that helped me get to this point is my **personal branding**.<br><br>
 
 ---
 
