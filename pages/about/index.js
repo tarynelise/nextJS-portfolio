@@ -71,6 +71,9 @@ export default function About() {
         <h4>Atlassian</h4>
         <ul className={utilStyles.listStandard}>
           <li className={utilStyles.listItemStandard}>
+            Currently feature leading a project coming soon!
+          </li>
+          <li className={utilStyles.listItemStandard}>
             Cypress tests for editor functionality to allow manual testing time
             to be spent on more complex scenarios
           </li>
@@ -137,23 +140,12 @@ export default function About() {
           , exploring our local area and Sydney beaches. 🐶
         </p>
         <p>
-          Like most millenials, I have an ever increasing obsession with indoor
-          plants and need to be held back from the Bunnings plant section. 🌱
-        </p>
-        <p>
-          I'm also a bit of a bookworm, reviewing technical and career
-          development books on my{" "}
-          <a
-            className={utilStyles.linkFeature}
-            href="https://www.instagram.com/tarynewens/"
-          >
-            Instagram
-          </a>
-          , and now on the{" "}
+          Alternatively I'll be juggling my many hobbies such as{" "}
           <Link href="/reading">
-            <a className={utilStyles.linkFeature}>Reading</a>
-          </Link>{" "}
-          page. 📚
+            <a className={utilStyles.linkFeature}>reading</a>
+          </Link>
+          , collecting more indoor plants than necessary, learning Solo Jazz
+          dancing, attempting to crochet things, very occasionally baking, etc!
         </p>
       </section>
     </Layout>
