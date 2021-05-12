@@ -140,13 +140,24 @@ export default function About() {
           , exploring our local area and Sydney beaches. 🐶
         </p>
         <p>
-          Alternatively I'll be juggling my many hobbies such as{" "}
-          <Link href="/reading">
-            <a className={utilStyles.linkFeature}>reading</a>
-          </Link>
-          , collecting more indoor plants than necessary, learning Solo Jazz
-          dancing, attempting to crochet things, very occasionally baking, etc!
+          Alternatively I'll be juggling far too many hobbies most recently
+          including:
         </p>
+        <ul>
+          <li>
+            <Link href="/reading">
+              <a className={utilStyles.linkFeature}>reading </a>
+            </Link>{" "}
+            📚
+          </li>
+          <li>learning Solo Jazz dancing 👯‍♀️</li>
+          <li>collecting far more indoor plants than necessary 🌱</li>
+          <li>
+            attempting to crochet things (I recently finished a beanie!) 🧶
+          </li>
+          <li>learning how to rollerskate 🛼</li>
+          <li>very occasionally baking 👩🏻‍🍳</li>
+        </ul>
       </section>
     </Layout>
   );
