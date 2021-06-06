@@ -11,23 +11,43 @@ export default function Community() {
       <section className={utilStyles.headingMd}>
         <h2>Community involvement</h2>
         <section>
+          <h3>STEM x Play</h3>
+          <p>
+            One of my latest volunteering activities has been with with{" "}
+            <a
+              className={utilStyles.linkFeature}
+              href="https://www.uts.edu.au/about/faculty-engineering-and-information-technology/women-engineering-and-it/primary-and-high-school-programs/stem-x-play-primary-school-program"
+            >
+              UTS STEM x Play primary school program
+            </a>
+            . I had the pleasure of joining a primary school class as an
+            industry professional mentor. The aim is to increase young girls
+            interest, confidence and identity with STEM and is incredibly
+            rewarding to be part of.
+          </p>
+        </section>
+        <section>
           <h3 className={utilStyles.h3}>General Assembly</h3>
           <p>
-            I regularly speak to software engineering classes at{" "}
+            I'm regularly involved in the General Assembly software engineering
+            community. I often make time for mentoring sessions with individual
+            students, as well as other career changers.
+          </p>
+
+          <p>
+            I have previously presented to software engineering classes at{" "}
             <a
               className={utilStyles.linkFeature}
               href="https://generalassemb.ly/"
             >
               General Assembly
             </a>{" "}
-            Sydney (and Melbourne once or twice!). I introduce them to CSS, the
-            amazing things that can be created with it (think fun interactions
-            and art!), and resources for them to continue learning more!
+            Sydney (and Melbourne once or twice!). I've introduced them to CSS,
+            the amazing things that can be created with it (think fun
+            interactions and art!), and resources for them to continue learning
+            more!
           </p>
-          <p>
-            I often make time for mentoring sessions with individual students,
-            as well as other career changers.
-          </p>
+          <p></p>
         </section>
 
         <section>
